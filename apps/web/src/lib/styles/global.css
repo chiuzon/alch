@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-	@apply bg-orange-200;
-	@apply text-black;
+	@apply bg-secondary-1;
+	@apply text-white;
+	@apply font-poppins;
 }
